@@ -1,0 +1,42 @@
+body {
+  background-color: #efffee;
+}
+
+.nome,
+.descricao {
+  font-family: IBM Plex Mono, sans-serif;
+}
+
+.residencia {
+  font-size: 20px;
+  color: #3c653a;
+  font-weight: 600;
+}
+
+em {
+  color: rgb(67, 138, 83);
+}
+
+.html {
+  font-size: 24px;
+}
+
+.css {
+  font-size: 22px;
+}
+
+.javascript {
+  font-size: 20px;
+}
+
+.git {
+  font-size: 18px;
+}
+
+.ux {
+  font-size: 16px;
+}
+
+.ui {
+  font-size: 14px;
+}
