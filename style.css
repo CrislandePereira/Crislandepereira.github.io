@@ -1,10 +1,90 @@
-body {
-  background-color: #efffee;
+/* Geral */
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.nome,
-.descricao {
+body {
+  background-color: #efffee;
   font-family: IBM Plex Mono, sans-serif;
+}
+
+/* Menu */
+.menu {
+  background-color: #3c653a;
+  display: flex;
+  justify-content: end;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 50px;
+}
+
+.menu a:hover {
+  color: #3c653a;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+/* Conteudo da pagina - área branca */
+#conteudo {
+  max-height: 80vh;
+  overflow: auto;
+}
+
+/* Perfil - nome e descrição */
+#sobre {
+  background-color: #fff;
+  width: 65%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 17.5%;
+}
+#habilidades {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 65%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17.5%;
+}
+
+#habilities {
+  margin-left: 10%;
+}
+
+#perfil {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.residencia {
+  text-transform: uppercase;
+}
+.descricao {
+  /* width: 50%; */
+  margin-left: 42%;
+  font-size: 22px;
+  text-align: center;
+}
+
+#foto {
+  width: 450px;
+  padding: 15px;
+  background-color: #b2ddb0;
 }
 
 .residencia {
@@ -17,26 +97,79 @@ em {
   color: rgb(67, 138, 83);
 }
 
-.html {
-  font-size: 24px;
+/* habilidades */
+h2 {
+  padding-top: 60px;
+}
+h2,
+ul {
+  font-size: 32px;
+  list-style: none;
+  margin-left: 50px;
+  text-transform: uppercase;
 }
 
-.css {
-  font-size: 22px;
-}
-
-.javascript {
-  font-size: 20px;
-}
-
-.git {
+li {
   font-size: 18px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+/* Redes Socias */
+.redes-sociais {
+  background-color: #b2ddb0;
+  height: 100px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: first baseline;
 }
 
-.ux {
-  font-size: 16px;
+.redes-sociais a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 100px;
+  font-size: 22px;
+  padding: 15px 50px;
+  border-radius: 15px;
+  background-color: #3c653a;
 }
 
-.ui {
-  font-size: 14px;
+.redes-sociais a:hover {
+  color: black;
+  opacity: 0.9;
+  transform: scale(1);
+}
+.icon {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.icon-habilidades {
+  margin-right: 10px;
+  color: #3c653a;
+  font-size: 32px;
+}
+.heart {
+  margin-right: 10px;
+  color: #b2ddb0;
+  font-size: 32px;
+}
+/* rodapé */
+.rodape {
+  background-color: #3c653a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 15px 100px;
 }

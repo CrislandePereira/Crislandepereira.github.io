@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Portifólio Web</title>
 </head>
@@ -13,36 +15,50 @@
   <div class="menu">
     <a href="#sobre"> Sobre mim </a>
     <a href="#habilidades"> Minhas Habilidades</a>
-    <a href="#pagina"> Página que gosto</a>
+    <a href="https://blog.betrybe.com/"> Página que gosto</a>
   </div>
-  <br>
-  <div id="sobre">
-    <h1 class="nome">Crislande Aparecida Pereira</h1>
-    <img src="profile.jpeg" alt="Foto aluna da Trybe" id="foto" width="300px">
-    <p class="residencia"><strong>Poços de Caldas - MG</strong></p>
-    <p class="descricao"> Programadora iniciante em <em> transição de carreira</em>, atualmente <br> acadêmica de <strong> Engenharia da Computação </strong> pela instituição <br>Descomplica e aluna da <Strong> Formação de Desenvolvimento Web </Strong>na Trybe.</p>
-    <a href="https://www.linkedin.com/in/crislandepereira/" target="_blank">Linkedin</a>
-    <a href="https://github.com/CrislandePereira" target="_blank">GitHub</a>
+  <div id="conteudo">
+    <div id="sobre">
+      <div id="perfil">
+        <img src="./img/profile.jpeg" alt="Foto aluna da Trybe" id="foto" width="300px">
+        <h1 class="nome">Crislande Aparecida Pereira</h1>
+        <p class="residencia"><span class="material-icons">location_on</span>
+          <strong>Poços de Caldas - MG</strong>
+        </p>
+      </div>
+      <p class="descricao"><i class="fa-solid fa-code"></i> Programadora iniciante em <em> transição de carreira</em>, atualmente <br> acadêmica de <strong> Engenharia da Computação </strong> pela instituição Descomplica <br>e aluna da <Strong> Formação de Desenvolvimento Web </Strong>na Trybe. <i class="fa-solid fa-code"></i></p>
+    </div>
+    <div id="habilidades">
+      <div id="habilities">
+
+        <h2> Minhas Habilidades: </h2>
+        <ul>
+          <li class="html"><i class="fa-brands fa-html5 icon-habilidades"></i>HTML</li>
+          <li class="css">CSS</li>
+          <li class="javascript"><i class="fa-brands fa-js icon-habilidades"></i>JavaScript</li>
+          <li class="git">Git</li>
+          <li class="ux"><i class="fa-solid fa-object-group icon-habilidades"></i>UX Design</li>
+          <li class="ui">UI Design</li>
+        </ul>
+        <h2>Outras Habilidades:</h2>
+        <ul>
+          <li><i class="fa-solid fa-heart heart"></i>Empatia</li>
+          <li><i class="fa-sharp fa-regular fa-heart heart"></i>Colaboração</li>
+          <li><i class="fa-solid fa-heart-circle-plus heart"></i>Comprometimento</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
-  <br><br><br><br>
-  <h2 id="habilidades"> Minhas Habilidades: </h2>
-  <ul>
-    <li class="html">HTML</li>
-    <li class="css">CSS</li>
-    <li class="javascript">JavaScript</li>
-    <li class="git">Git</li>
-    <li class="ux">UX Design</li>
-    <li class="ui">UI Design</li>
-  </ul>
-  <h2>Outras Habilidades:</h2>
-  <ul>
-    <li>Empatia</li>
-    <li>Colaboração</li>
-    <li>Comprometimento</li>
-  </ul>
-  <br><br><br><br>
-  <a href="#foto"> Minha Foto </a>
-  <a href="https://www.infojobs.com.br/blog/transi%C3%A7ao_de_carreira__16565.aspx" target="_blank"> Artigo Legal </a>
+  <div class="redes-sociais">
+
+    <a href="https://www.linkedin.com/in/crislandepereira/" target="_blank"><i class="fa-brands fa-linkedin icon"></i>Linkedin</a>
+    <a href="https://github.com/CrislandePereira" target="_blank"><i class="fa-brands fa-github icon"></i>GitHub</a>
+    <a href="https://www.instagram.com/dracrispereira_/"><i class="fa-brands fa-instagram icon"></i>Instagram</a>
+  </div>
+  <div class="rodape">
+    <a href="https://www.infojobs.com.br/blog/transi%C3%A7ao_de_carreira__16565.aspx" target="_blank"> Artigo Legal </a>
+  </div>
 </body>
 
 </html>
